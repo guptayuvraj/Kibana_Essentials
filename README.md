@@ -5,6 +5,10 @@
 
 **Please use file named "tweet.json"  if you are using elasticdump less than v1.0.x**
 
+Note:- Make sure you are not using elasticdump v2.x.x. If you are using it you will not be able to load tweets from file into the Elasticsearch indices. To install a particular version of elasticdump, use following command:-
+
+**npm install elasticdump@1.1.4 -g**
+
 ----
 
 
